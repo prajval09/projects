@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+.bg_1 {
+    background-image: url(Assets/backround-1.jpg);
+    background-position: center center;
+    background-size: max(100vw, 1640px);
+    background-repeat: no-repeat;
+    height: 96vh;
+    position: relative;
+}
+
+.blackbox {
+    height: 96vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.69;
+}
+
+.navbar {
+    display: flex;
+    max-width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding-top: 16px ;
+}
+
+.buttons {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    z-index: 10;
+}
+
+.loginbtn {
+    border-radius: 3px;
+    background-color: red;
+    padding: 6px 16px;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+.lang {
+    padding: 6px 36px;
+    border-radius: 3px;
+    border: 0.1px solid white;
+    font-weight: 600;
+    background-color: rgba(45, 45, 45, 0.105);
+    color: white;
+}
+
+.rbtn {
+    padding: 13px 45px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.mailinput1 {
+    padding: 18px 188px 12px 12px;
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 0.2px solid white;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+
+}
+
+.navbar img {
+    position: relative;
+    z-index: 10;
+}
+
+.bigtext {
+    color: white;
+    height: calc(100% - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    position: relative;
+    z-index: 10;
+    font-family: martel sans;
+
+}
+
+.t1 {
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.t2 {
+    font-size: 24px;
+    font-weight: 150;
+    text-align: center;
+}
+
+.t3 {
+    font-size: 20px;
+    font-weight: 150;
+    text-align: center;
+}
+
+.sepration {
+    height: 7px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.firsty {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 80vw;
+}
+
+.firstytext {
+    color: white;
+    max-width: 50vw;
+}
+
+.boldone {
+    font-family: martel sans;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.smallone {
+    font-family: martel sans;
+    font-size: 1.25rem;
+    /* font-weight: ; */
+}
+
+@media screen and (max-width:750px){
+    .firsty{
+        flex-wrap: wrap;
+    }
+
+    .boldone {
+        
+        font-size: 1.5rem;
+        color: red;
+        font-weight: 500;
+    }
+
+    .smallone {
+        font-size: 1 rem;
+        /* font-weight: ; */
+    }
+
+} 
+
+
+.firstyimg {
+    position: relative;
+}
+
+.firstyimg img {
+    height: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.firstyimg video {
+    position: absolute;
+    height: 55%;
+    top: 20%;
+    right: 14%;
+    /* height: 237px;
+    /* height: 237px; */
+}
+
+.thirdly video {
+    /* height: 100vw; */
+    top: 10%;
+    right: 20%;
+    height: 14vw;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+h1 {
+    padding-top: 60px;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: martel sans;
+}
+
+.faqs {
+    text-align: center;
+    color: white;
+    height: 130vh;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.qns {
+    background-color: rgb(50, 50, 50);
+    width: 73vw;
+    padding: 1.5rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.faqs span {
+    padding-top: 28px;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+footer {
+    height: 55vh;
+    max-width: 76vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+   
+}
+
+.options {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxi
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer a,.contact {
+    color: white;
+}
